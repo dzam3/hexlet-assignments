@@ -10,7 +10,7 @@ public class App {
         var lettersArray = letters.split("");
         List<String> letterList = new ArrayList<>(Arrays.asList(lettersArray));
         var wordArray = word.toLowerCase().split("");
-        List<String> wordList = new ArrayList<>(Arrays.asList( wordArray));
+        List<String> wordList = new ArrayList<>(Arrays.asList(wordArray));
 
 
         var wordCheck = wordList.stream()
